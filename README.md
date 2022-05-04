@@ -1,0 +1,1 @@
+Compresses files with RLE
