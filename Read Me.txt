@@ -1,0 +1,44 @@
+Program
+	RunLengthEncoder.exe
+
+Developer
+	Neavirunes
+
+Version
+	1.0.0
+
+Date
+	Summer 2019
+
+Description
+	Compresses files with RLE
+
+Usage
+	RunLengthEncoder.exe -s bytesSkipped -i inputFile -o outputFile
+
+System Requirements
+		System
+					Windows	XP		64	bit
+					Windows	Vista	64	bit
+					Windows	7		64	bit
+					Windows	8		64	bit
+					Windows	8.1		64	bit
+					Windows	10		64	bit
+		Processor
+					Core 	2
+					Core	i3
+					Core	i5
+					Core	i7
+		Video
+					-
+		Memory
+					Varies
+		Disk
+					12,288 bytes
+
+License
+	Creative Commons License Attribution-NoDerivatives 4.0 International
+	See https://creativecommons.org/licenses/by-nd/4.0/legalcode for further details
+
+Contact
+	support@neavirunes.com

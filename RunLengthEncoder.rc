@@ -1,0 +1,23 @@
+1 VERSIONINFO
+FILEVERSION 1,0,0
+BEGIN
+	BLOCK "StringFileInfo"
+	BEGIN
+		BLOCK "040904E4"
+		BEGIN
+			VALUE "CompanyName", "Neavirunes"
+			VALUE "FileDescription", "Compresses files with RLE"
+			VALUE "FileVersion", "1.0.0 Alpha"
+			VALUE "InternalName", "RunLengthEncoderAlpha"
+			VALUE "LegalCopyright", "See Creative Commons License"
+			VALUE "OriginalFilename", "RunLengthEncoder.exe"
+			VALUE "ProductName", "RunLengthEncoder"
+			VALUE "ProductVersion", "1.0.0 Alpha"
+		END
+	END
+	BLOCK "VarFileInfo"
+	BEGIN
+		VALUE "Translation", 0x409, 1252
+	END
+END
+laraicon ICON "Spoopy.ico"
