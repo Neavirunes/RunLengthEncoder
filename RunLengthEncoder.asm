@@ -264,7 +264,7 @@ Same2:
 	jmp			Encode
 Output:
 	mov			[r14],					r13b
-	sub			r8d,					04h
+	sub			r8d,					03h
 
 	mov			qword [rsp + 20],		00h							; lpCompletionRoutine
 	mov			r9,						WOverlapped					; lpOverlapped
@@ -368,7 +368,7 @@ ErrorSBytes:	db		'ERROR : Skip bytes argument not given!', 0dh, 0ah, 00h
 				align 16, db 00h
 gecverranIntN:	db		'gecverranInt', 00h
 				align 16, db 00h
-GecverranLib:	db		'Gecverran.dll', 00h
+GecverranLib:	dw		__utf16__'C:\Program Files\Neavirunes\Windows\Gecverran\Gecverran.dll', 00h
 				align 16, db 00h
 
 section .bss
